@@ -349,8 +349,7 @@ def on_message(data: samino.Event):
     if msg.startswith("السلام عليكم"):
         local.send_message(chatId, " وعليكم السلام", comId=comId, asWeb=True) 
     
-    if msg.startswith("ssd"):
-      local.kick(chatId, user["uid"], allowRejoin=True)
+
       
 
   
