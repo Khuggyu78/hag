@@ -1,5 +1,4 @@
 samino
-threading.py
 os
 pyjokes
 requests
