@@ -1,5 +1,4 @@
 samino
-os
 pyjokes
 requests
 wikipedia
