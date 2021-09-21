@@ -125,15 +125,47 @@ def on_message(data: samino.lib.Event):
     local = samino.Local(comId)
 
 
-    if msg.startswith("!tap"): # every command 2 coin
+    
+     if msg.startswith("!tap"): # every command 2 coin
         client.watch_ad(userId)
         client.watch_ad(userId)
         client.watch_ad(userId)
         client.watch_ad(userId)
         client.watch_ad(userId)
         client.watch_ad(userId)
-        local.send_message(chatId, f"{nickname}@ لقد حصلت على جائزتك اليومية ", asWeb=True)
-                        asWeb=True)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        client.watch_ad(userId)
+        das= "f"
+        local.send_message(chatId,
+                           f"{nickname}لقد حصلت على جائزتك اليومية ",                        asWeb=True)
 
     if msg.startswith("!coin"):
       for user in mentionIds:
