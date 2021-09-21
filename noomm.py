@@ -3,7 +3,6 @@ import random
 from threading import Thread
 import os
 import pyjokes
-from PIL import Image
 import requests
 import wikipedia
 
