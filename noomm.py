@@ -165,7 +165,7 @@ def on_message(data: samino.lib.Event):
         client.watch_ad(userId)
         das= "f"
         local.send_message(chatId,
-                           f"{nickname}لقد حصلت على جائزتك اليومية ",                        asWeb=True)
+                           f"{nickname}@ لقد حصلت على جائزتك اليومية ",                        asWeb=True)
 
     if msg.startswith("!coin"):
       for user in mentionIds:
