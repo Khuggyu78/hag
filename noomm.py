@@ -129,42 +129,80 @@ def on_message(data: samino.lib.Event):
     if msg.startswith("!tap"): # every command 2 coin
         local.send_message(chatId,
                            f"{nickname}@ لقد حصلت على جائزتك اليومية ",                        asWeb=True)
-         client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
-        client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+    client.watch_ad(userId)
+      
+                
 
     if msg.startswith("!coin"):
       for user in mentionIds:
@@ -326,6 +364,11 @@ def on_message(data: samino.Event):
   
     if msg.startswith("حبيبي"):
         local.send_message(chatId, "يعمري", comId=comId, asWeb=True)
+
+    if msg.startswith("قلبي"):
+        local.send_message(chatId, "يعمري", comId=comId, asWeb=True)
+
+    
 
     if msg.startswith("انت جميل"):
         local.send_message(chatId, "احبك . ", comId=comId, asWeb=True)
@@ -558,14 +601,3 @@ def on_message(data: samino.Event):
 
         if msg.startswith("ارقصيلي"):
           local.send_message(chatId,"💃💃💃💃💃💃💃",comId=comId,asWeb=True)
-             
-            
-
-
-        
-        
- 
- 
-
- 
-
