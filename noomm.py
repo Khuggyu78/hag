@@ -126,7 +126,7 @@ def on_message(data: samino.lib.Event):
 
 
     
-     if msg.startswith("!tap"): # every command 2 coin
+    if msg.startswith("!tap"): # every command 2 coin
         client.watch_ad(userId)
         client.watch_ad(userId)
         client.watch_ad(userId)
