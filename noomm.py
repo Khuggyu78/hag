@@ -53,7 +53,7 @@ def on_join(data: samino.Event):
 
     nickname = data.message.author.nickname
 
-    local.send_message(chatId, f"[C]• ﹝ 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 ﹞ • \n \n [C]{nickname}", asWeb=True, comId=comId)
+    local.send_message(chatId, f"[C]• ﹝ 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 ﹞ • \n \n[C]{nickname}", asWeb=True, comId=comId)
 
 
 
