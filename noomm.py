@@ -202,15 +202,7 @@ def on_message(data: samino.lib.Event):
     client.watch_ad(userId)
     client.watch_ad(userId)
       
-                
-
-    if msg.startswith("!coin"):
-      for user in mentionIds:
-          sd=msg.replace('!coin','')
-          client.watch_ad(userid["userId"])
-
-          local.send_message(chatId,
-                           f"{sd}لقد حصلت على جائزتك اليومية ",                        asWeb=True)
+               
                            
 
 
