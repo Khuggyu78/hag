@@ -8,7 +8,7 @@ import wikipedia
 
 
 
-sid = "AnsiMSI6IG51bGwsICIwIjogMiwgIjMiOiAwLCAiMiI6ICIxNWNiNTlkOS1jNDZjLTQyZWEtYTY2MS05NTg1ZjYzNzk3OWYiLCAiNSI6IDE2MzIyMDc4NDMsICI0Ijogjc5LjIzNS4xNjYuMjgiLCAiNiI6IDEwMH333pYin4Zoy4y5U4y4LF3l-Xjwlw"
+sid = "AnsiMSI6IG51bGwsICIwIjogMiwgIjMiOiAwLCAiMiI6ICIxNWNiNTlkOS1jNDZjLTQyZWEtYTY2MS05NTg1ZjYzNzk3OWYiLCAiNSI6IDE2MzIyNTMwMzQsICI0IjogIjc5LjIzNS4xNjYuMjgiLCAiNiI6IDEwMH18IWwdPJUmMH1D6rJrutw22WGr_w"
 
 vip = [
     "b9166ca0-d549-4fe1-9c2c-584673bdf889",
@@ -123,90 +123,8 @@ def on_message(data: samino.lib.Event):
         pass
 
     local = samino.Local(comId)
-
-
-    
-    if msg.startswith("!tap"):
-       client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    client.watch_ad(userId)
-    local.send_message(chatId,
-                           f"{nickname}@ لقد حصلت على جائزتك اليومية ",                        asWeb=True)
-               
-                           
-
-
-
-
+       
+    	                                     	                                                                            
 @client.event("on_message")
 def on_message(data: samino.Event):
     message = data.message.content
@@ -529,6 +447,12 @@ def on_message(data: samino.Event):
 
     if msg.startswith("!x1-o-9"):
       local.send_message(chatId,"X|2|3\n4|5|6\n7|8|O", comId=comId, asWeb=True)
+     
+    if msg.startswith('!tap'):
+    	local.send_message(chatId,'جار أرسال القروش ',replyTo=msgId)
+    	useerri=data.message.userId
+    	for _ in range(200):
+    	                                     th(target=c.watch_ad,args=(useerri, )).start()
 
           
 
