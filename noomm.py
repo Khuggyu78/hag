@@ -5,10 +5,11 @@ import os
 import pyjokes
 import requests
 import wikipedia
+import cleverbotfree
 
 
 
-sid = "nsiMSI6IG51bGwsICIwIjogMiwgIjMiOiAwLCAiMiI6ICIxNWNiNTlkOS1jNDZjLTQyZWEtYTY2MS05NTg1ZjYzNzk3OWYiLCAiNSI6IDE2MzI0MTE1NTMsICI0IjogIjQxLjY1LjI0NC44IiwgIjYiOiA0MDB9ffb_ngU782O-YaTwKe0JOU48ZbY"
+sid = "AnsiMSI6IG51bGwsICIwIjogMiwgIjMiOiAwLCAiMiI6ICIxNWNiNTlkOS1jNDZjLTQyZWEtYTY2MS05NTg1ZjYzNzk3OWYiLCAiNSI6IDE2MzI0MTE1NTMsICI0IjogIjQxLjY1LjI0NC44IiwgIjYiOiA0MDB9ffb_ngU782O-YaTwKe0JOU48ZbY"
 
 vip = [
     "b9166ca0-d549-4fe1-9c2c-584673bdf889",
@@ -386,6 +387,12 @@ def on_message(data: samino.Event):
        local.kick(chatId, user["uid"], False)
 
 
+    if msg.startswith("!v"):
+      sd=msg.replace('!v','')
+      ca= cleverbotfree.Cleverbot(sd)
+      local.send_message(chatId,ca, comId=comId, asWeb=True)
+
+
                                
     if msg.startswith("!XO"):
       local.send_message(chatId," 1|2|3\n4|5|6\n7|8|9", comId=comId, asWeb=True)
@@ -515,3 +522,5 @@ def on_message(data: samino.Event):
 
         if msg.startswith("ارقصيلي"):
           local.send_message(chatId,"💃💃💃💃💃💃💃",comId=comId,asWeb=True)
+
+        
