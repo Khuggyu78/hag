@@ -1,6 +1,6 @@
 import samino
 c = samino.Client("22210FBEEEA9D9C77872C1D9E57892F6CE987064D3B9EA712461480F639FFD4AFC4B33191E466EDB9D")
-import websocket
+
 import requests
 import amino
 import json
