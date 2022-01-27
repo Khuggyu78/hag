@@ -4,6 +4,5 @@ requests
 bs4
 prsaw
 giphy_client
-base64
 wikipedia
 gtts
