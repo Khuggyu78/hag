@@ -1,5 +1,9 @@
-samino
-amino-new.py
-pyjokes
+amino.py
+amino.fix
 requests
+bs4
+prsaw
+giphy_client
+base64
 wikipedia
+gtts
