@@ -1,8 +1,2 @@
-amino.py
-amino.fix
 requests
-bs4
-prsaw
-giphy_client
-wikipedia
-gtts
+pyTelegramBotAPI
