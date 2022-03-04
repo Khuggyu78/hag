@@ -10,7 +10,7 @@ def welcome(message):
 
 @bot.message_handler(func=lambda m: True)
 def get(message):
-	res=requests.post(f"https://api.simsimi.net/v2/?text={message.text}&lc=ar&cf=false").json()["success"]
+	res=requests.post(f"https://api.simsimi.net/v2/?text={message.text}&lc=en&cf=false").json()["success"]
 	bot.reply_to(message,res)
 	print(":)")
 
