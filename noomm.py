@@ -3,7 +3,7 @@ from telebot import types
 import telebot
 from time import sleep
 import random
-token = "5218688832:AAFEDBG9Udpd_XSiZ470dSBQlp50L00FCjg"
+token = "5013418953:AAHj8R05EJ7msi6JX4pzAQ3n3g4JOuf0Jhc"
 bot = telebot.TeleBot(token)
 r=requests.session() 
 co = types.InlineKeyboardButton(text ="صورة قرآن",callback_data = 'check')
