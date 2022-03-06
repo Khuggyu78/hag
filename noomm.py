@@ -6,7 +6,7 @@ import random
 token = "5013418953:AAHj8R05EJ7msi6JX4pzAQ3n3g4JOuf0Jhc"
 bot = telebot.TeleBot(token)
 r=requests.session() 
-co = types.InlineKeyboardButton(text ="صورة قرآن",callback_data = 'check')
+co = types.InlineKeyboardButton(text ="سورة قرآن",callback_data = 'check')
 com = types.InlineKeyboardButton(text ="أية قرآن",callback_data = 'i')
 #----#
 
