@@ -54,7 +54,7 @@ def check(message):
 		ab = urle["info"]['Ayah']
 		bot.send_message(message.chat.id,"❀° ┄────────────────────────╮\n\n"+ab+"\n\n╰───────────────────────┄ °❀")
 def co(message):
-	   	bot.send_message(message.chat.id,"soon..")	   	
+	   	bot.send_message(message.chat.id,"كورونا بوت @Covid19abot")	   	
 	   	
 def com(message):
     							zekr = requests.get('https://azkar-api.nawafhq.repl.co/zekr?json=true').json()['content']
